@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
+// * --value at operator
+// & --address operator
 int age=22;
 int *ptr=&age;  // to store the adress of variable of type int age=22;
 // char * ptr   to the store address of variable of type char a='*';
