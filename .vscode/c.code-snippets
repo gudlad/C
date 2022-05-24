@@ -9,13 +9,13 @@
   "Print to console": {
     "scope": "c",
     "prefix": "c",
-    "body": ["#include<stdio.h>", "int main()", "{\n\n", "return 0;", "}"],
+    "body": ["#include<stdio.h>", "int main()", "{\n\n($1)", "return 0;", "}"],
     "description": "Log output to console"
   },
 
   "console output": {
     "prefix": "pf",
-    "body": "prinf(\"$1\");$2",
+    "body": "printf(\"$1\\n\");$2",
     "description": "output to the console"
   },
 
