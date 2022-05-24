@@ -11,5 +11,23 @@
     "prefix": "c",
     "body": ["#include<stdio.h>", "int main()", "{\n\n", "return 0;", "}"],
     "description": "Log output to console"
+  },
+
+  "console output": {
+    "prefix": "pf",
+    "body": "prinf(\"$1\");$2",
+    "description": "output to the console"
+  },
+
+  "console input": {
+    "prefix": "sf",
+    "body": "scanf(\"$1\");$2",
+    "description": "input from the console"
+  },
+
+  "Named function": {
+    "prefix": "fb",
+    "body": ["${1:rtype} ${2:fName}($3){", "$4", "}\n"],
+    "description": "Named function"
   }
 }
