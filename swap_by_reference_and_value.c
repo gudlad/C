@@ -31,3 +31,5 @@ int t=*a;
 *b=t;
  printf("a=%d b=%d\n",*a,*b);
 }
+
+/* the functions can return single value but when we want multiply values to be returned by the function  we can just pass the address of a variable  and do modification to that value then we need n't return anything and alue is also returned we follow these to return mulitple values from a function. */
