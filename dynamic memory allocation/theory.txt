@@ -1,0 +1,49 @@
+Dynamic Memory Allocation:
+*   It is a way to allocate memory to a data structure  during  the runtime.
+*   We need some functions to allocate & free memory dynamically.
+
+
+-----------------------------------------------------------
+* functions of Dynamic memory Allocation
+* to use these functions in the pgm include the header file 
+  #include<stdlib.h>
+------------------------------------------------------------
+1. malloc()
+  *malloc stands for memory allocation.
+  *takes number of bytes to be allocated & returns a   pointer of type void.
+
+  ptr=(int*)malloc(5* sizeof(int));
+  
+  * the malloc function returns a pointer of type void which we convert into pointer of type int
+  * memory locations may or may not be initialized with 0's
+
+
+------------------------------------------------------------
+2. calloc()
+  * calloc stands for continuous memory allocation.
+  * Every memory location will be initialized with 0 or null values
+  
+  ptr=(int*)calloc(5,sizeof(int));
+  
+  * we need 5 locations with each location is of size int
+  * calloc returns void pointer which we type cast to int
+
+
+
+------------------------------------------------------------
+3. free()
+  * We use it to free memory i.e allocated using malloc & calloc
+  * the memory that we allocate dynamically doesn't get freed on it's own like java 
+  * In static allocation  c compiler can predict what happens to memory so it can free the memory without any hurdles
+  * But in DMA c compiler doesn't aware what will be happening with that memory held by calloc malloc so the compiler doesn't try to alter the memory, so it becomes programmers responsibility to free the memory using free(),
+
+  free(ptr);
+
+
+  
+---------------------------------------------------------------------------
+4. realloc()
+  * reallocate(increase or decrease) memory using the same pointer & size
+  * when we reserve more memory than what we needed,we can release the extra memory or adjust the memory using realloc function.
+
+  ptr=realloc(ptr,newSize);
