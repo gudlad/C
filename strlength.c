@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() // string length
+int main() 
+
 {
     char name[30];
     int count = 0, i = 0;
