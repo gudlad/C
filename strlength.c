@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main() // string length
 {
     char name[30];
     int count = 0, i = 0;
@@ -14,4 +14,4 @@ int main()
     printf("length of string is: %d\n", count - 1);
 
     return 0;
-}
+} 
