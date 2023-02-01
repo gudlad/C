@@ -1,2 +1,2 @@
 # c_learning_path
-learning c for placements
+revise c programming concepts.
