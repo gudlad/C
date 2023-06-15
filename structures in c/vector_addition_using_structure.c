@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-typedef struct vector
+//? use of typedef keyword is create alias for structers
+typedef struct vector 
 {
     int x;
     int y;
@@ -10,6 +11,7 @@ void calSumVector(v v1, v v2, v *ptr);
 
 int main()
 {
+    //! instead of using (struct student) use (v)
     v v1 = {1, 2};
     v v2 = {3, 5};
     v sum = {0};

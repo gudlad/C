@@ -35,10 +35,11 @@ int countLength(char arr[])
     //     printf("count value : %d\n", count);
     // }
     // return count - 1;
+
     while (arr[i] != '\0')
     {
-        count++;
-        i++;
+        count++; 
+        i++;   
     }
-    return count - 1;
+    return count-1;
 }

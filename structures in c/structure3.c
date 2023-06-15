@@ -36,3 +36,9 @@ int main()
     printf("student cgpa = %f\n", s3.cgpa);
     return 0;
 }
+
+
+
+//? benefits of structure in C
+// 1. saves us from creating extra variables
+// 2. good data management

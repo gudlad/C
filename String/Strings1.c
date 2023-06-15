@@ -9,7 +9,9 @@ int main()
     // 1 st way
     char name[] = {'g', 'u', 'r', 'u', 'p', 'r', 'a', 's', 'a', 'd', '\0'};
     // don't forget to put null character at the end of the char array
-    // if don't put the null character at the end then can't access the specila methods of the string and array is treated as just normal array
+    // if don't put the null character at the end then the array wll be treated as normal character array
+    // then can't access the specila methods of the string and array is treated as just normal array
+
 
     // second way
     char Name[] = "guruprasad";

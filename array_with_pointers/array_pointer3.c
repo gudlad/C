@@ -6,3 +6,11 @@ int main()
     printf("%d\n", *(arr + 3));
     return 0;
 }
+
+
+//! passing array to function
+// void printNumbers(int*arr,int n);
+//? or
+// void pointNumbers(int arr[],int n);
+
+// pointNumbers(arr,n);
