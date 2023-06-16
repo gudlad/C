@@ -1,3 +1,11 @@
+//! File opening modes
+// "r"
+// "w"
+// "a"
+// "rb"
+// "wb"
+
+
 // reading from a file
 #include <stdio.h>
 /*
@@ -9,6 +17,7 @@ fscanf() -- is used for reading data from a file and storing data in some variab
 */
 int main()
 {
+    //? opening a file
     FILE *fptr;
     fptr = fopen("test.txt", "r");
 
@@ -32,3 +41,9 @@ int main()
     fclose(fptr);
     return 0;
 }
+
+// fopen();
+// fclose();
+// fscanf();
+
+

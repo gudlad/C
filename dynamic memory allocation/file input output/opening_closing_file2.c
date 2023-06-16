@@ -18,6 +18,6 @@ int main()
     }
     else
         fclose(fptr);
-    return 0;
+    
     return 0;
 }

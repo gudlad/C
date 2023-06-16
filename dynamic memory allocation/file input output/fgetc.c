@@ -17,3 +17,9 @@ int main()
     printf("%d\n", fgetc(fptr));
     return 0;
 }
+
+// fopen()
+// fclose()
+// fscanf()/ fgetc()
+// fprintf()/ fputc()
+
