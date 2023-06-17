@@ -1,0 +1,28 @@
+The <stdlib.h> header in C provides several commonly used functions. Here are some of the frequently used functions from stdlib.h:
+
+Memory management functions:
+malloc(): Allocates a block of memory.
+calloc(): Allocates and initializes a block of memory.
+realloc(): Reallocates memory for an existing block.
+free(): Frees previously allocated memory.
+
+Conversion functions:
+atoi(): Converts a string to an integer.
+atof(): Converts a string to a floating-point number.
+strtol(): Converts a string to a long integer.
+strtod(): Converts a string to a double.
+
+Environment functions:
+system(): Executes a command in the system shell.
+getenv(): Retrieves the value of an environment variable.
+
+String manipulation functions:
+itoa(): Converts an integer to a string.
+rand(): Generates a random number.
+qsort(): Sorts an array.
+bsearch(): Searches for a value in a sorted array.
+
+Other utility functions:
+exit(): Terminates the program.
+abort(): Aborts the program.
+abs(): Returns the absolute value of an integer.

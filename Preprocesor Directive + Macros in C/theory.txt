@@ -22,3 +22,6 @@ day=Mon;
 
 Execution Process of C:
 link ➡️https://www.youtube.com/watch?v=_FOkG5D4NBo&ab_channel=Jenny%27sLecturesCSIT
+
+
+first.c -> first.i (preprocessor program)-> first obj file -> linking of obj files(linker) -> first.exe -> loaded to ram (loader) -> execution by CPU.
