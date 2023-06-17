@@ -1,0 +1,24 @@
+* Preprocessor is a sepearate program not part of C compiler.
+* Preprocessor is a text substitution tool.
+* Preprocessor directives are not terminated by semicolon.
+* Preprocessor directives are executed before compilation.
+Ex:
+#include <stdio.h>
+#include "support.c"
+link ➡️ https://www.youtube.com/watch?v=pw0uGPmGNl8&ab_channel=Jenny%27sLecturesCSIT
+
+Macros:
+Ex:
+#define PI 3.14
+#define MUL(a,b)  (a)*(b)
+
+
+
+Enumerated Data Type:
+* constants in C
+enum weekdays={Mon, Tue, Wed, Thu, Fri, Sat, Sun};
+enum weekdays day;
+day=Mon;
+
+Execution Process of C:
+link ➡️https://www.youtube.com/watch?v=_FOkG5D4NBo&ab_channel=Jenny%27sLecturesCSIT

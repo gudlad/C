@@ -1,0 +1,48 @@
+There are 4 storage classes in C
+1. automatic
+2. register
+3. static
+4. external
+
+Each of the storage classes define 4 properties for a variable 👍
+1. Scope
+2. Lifetime
+3. location
+4. Default value
+
+1. Automatic variables
+    by default the variables are auto
+    - Scope: Local to the block in which it is defined
+    - Lifetime: Till the control remains in the block
+    - Location: Stack
+    - Default value: Garbage value
+
+Ex : auto int x;
+
+2. Register variables
+    - Scope: Local to the block in which it is defined
+    - Lifetime: Until the block
+    - Location: cpu register
+    - Default value: Garbage value
+
+Ex : register int x;
+
+very important concept********************************
+3. Static variables
+    - Scope: Local to the block in which it is defined
+    - Lifetime: Till the end of the program
+    - Location: placed in seperate global/static part of ram
+    - Default value: 0
+
+Ex : static int x;
+
+
+4. External variables
+    - scope: global
+    - Lifetime: till the end of the program
+    - Location: placed in the global/static part of ram
+    - Default value: 0
+
+    - A variable/function can be extern.
+
+Ex: extern int x;
